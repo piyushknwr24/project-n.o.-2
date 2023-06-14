@@ -1,0 +1,1161 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/*navigation bar*/
+
+.header-bg {
+    position: relative;
+    z-index: 0;
+
+
+}
+
+.nav ul li {
+
+    display: inline-block;
+    margin-left: 15px;
+}
+
+ul {
+    position: absolute;
+    left: 490px;
+    top: 30px;
+}
+
+i {
+    color: black;
+}
+
+.logo {
+
+    position: absolute;
+    left: -200px;
+    top: -15px;
+}
+
+.line {
+    border: green 3px solid;
+
+    visibility: hidden;
+
+
+}
+
+@media(max-width: 700px) {
+    .line {
+        visibility: visible;
+        margin-top: 20px;
+        width: 98%;
+    }
+
+    .nav {
+        visibility: hidden;
+    }
+
+    .logo {
+        visibility: visible;
+        margin-left: -250px;
+        margin-top: -5px;
+    }
+
+
+}
+
+#un{
+    position: absolute;
+    top: 20px;
+    visibility: hidden;
+}
+.home:hover #un{
+    border: 1px solid black;
+    visibility: visible;
+    color: black;
+    font-size: 20px;
+    background-color: aqua;
+    position: absolute;
+    top: 40px;
+    z-index: 2;
+
+}
+
+
+
+
+
+/*header*/
+
+.box1 {
+    border: 1px solid transparent;
+    background-color: white;
+    height: 500px;
+    margin-top: -50px;
+    width: 99.9%;
+    z-index: 1;
+    position: absolute;
+}
+
+.banner {
+    position: absolute;
+    width: 99.9%;
+    height: 600px;
+    margin-left: 2px;
+    z-index: 1;
+}
+
+.banner-bg {
+    visibility: hidden;
+    height: 500px;
+    width: 510px;
+    margin-top: 50px;
+}
+
+@media(max-width:700px) {
+    .banner-bg {
+        visibility: visible;
+        width: 100%;
+    }
+}
+
+.box2 {
+    position: absolute;
+    border: 1px solid transparent;
+    width: 400px;
+    height: 400px;
+    left: 332px;
+    top: 150px;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+@media(max-width:700px) {
+    .box2 {
+        visibility: visible;
+        margin-left: -170px;
+    }
+}
+
+
+.box2 h6 {
+    font-size: 40px;
+    margin-top: 55px;
+    margin-left: 40px;
+}
+
+.box2 p {
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.box2 button {
+    width: 140px;
+    height: 35px;
+    margin-left: 30px;
+}
+
+.button1 {
+    margin-top: 80px;
+    background-color: rgb(83, 166, 86);
+    color: white;
+    border-radius: 40px;
+    border-color: black;
+    font-size: medium;
+}
+
+.button1:hover {
+    background-color: black;
+}
+
+.box3 {
+    border: 1px solid transparent;
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    width: 99.9%;
+    bottom: 70px;
+    background-color: rgb(83, 166, 86);
+
+}
+
+.box3 p {
+    color: white;
+    font-size: 100px;
+    display: inline-block;
+    margin-top: -50px;
+    margin-left: 10px;
+}
+
+.box3 p:hover {
+    color: black;
+}
+
+
+.span1 {
+    margin-left: 600px;
+}
+
+@media(max-width:700px) {
+    .box3 {
+        visibility: visible;
+        position: absolute;
+        height: 80px;
+        top: 580px;
+    }
+
+    .box3 .span1 {
+        margin-left: 240px;
+        
+    }
+}
+
+.box4 {
+    border: 1px solid transparent;
+    height: 500px;
+    width: 99.9%;
+    margin-top: 70px;
+    position: relative;
+}
+
+.aboutus {
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    font-size: 30px;
+}
+
+@media(max-width:700px) {
+    .aboutus {
+        position: absolute;
+        top: 20px;
+        left: 30px;
+    }
+}
+
+.line2 {
+    position: absolute;
+    border: 1px solid black;
+    width: 200px;
+    top: 18px;
+    left: 140px;
+}
+
+.itis {
+    position: absolute;
+    font-size: 15px;
+    top: 120px;
+    left: 300px;
+}
+
+@media(max-width:700px) {
+    .itis {
+        border: 1px solid none;
+        height: 100px;
+        font-size: 16px;
+        width: 320px;
+        visibility: visible;
+        position: absolute;
+        top: 65px;
+        left: 30px;
+
+    }
+}
+
+
+.box5 {
+    position: absolute;
+    border: 1px solid transparent;
+    height: 310px;
+    width: 120px;
+    top: 180px;
+    left: 300px;
+    background-color: rgb(83, 166, 86);
+}
+
+@media(max-width:700px) {
+    .box5 {
+        position: absolute;
+        left: 100px;
+    }
+}
+
+.box6 {
+    position: absolute;
+    border: 1px solid transparent;
+    height: 250px;
+    width: 400px;
+    top: 29px;
+    left: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.img1 {
+    height: 250px;
+    width: 400px;
+}
+
+.p1 {
+    margin-left: 750px;
+    margin-top: 300px;
+}
+
+@media(max-width:700px) {
+
+    .p1 {
+        border: 1px solid none;
+        width: 350px;
+        text-align: left;
+        position: absolute;
+        right: 300px;
+        top: 200px;
+
+
+
+    }
+
+}
+
+.button2 {
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 120px;
+    margin-left: 1100px;
+    margin-top: 50px;
+}
+
+.button2:hover {
+    background-color: white;
+    color: black;
+}
+
+
+@media(max-width:700px) {
+    .button2 {
+        position: absolute;
+        top: 540px;
+        right: 280px;
+        height: 30px;
+        width: 100px;
+    }
+}
+
+.box7 {
+    position: relative;
+    border: solid transparent 1px;
+    width: 100%;
+    height: 200px;
+    margin-top: 0px;
+}
+
+.image1 {
+    position: absolute;
+    width: 100%;
+    top: 50px;
+}
+
+@media(max-width:700px) {
+    .box7 {
+        position: absolute;
+        top: 1350px;
+    }
+}
+
+.aboutus1 {
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    font-size: 30px;
+}
+
+.line3 {
+    position: absolute;
+    border: 1px solid black;
+    width: 200px;
+    top: 18px;
+    left: 180px;
+}
+
+.aboutus1 {
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    font-size: 30px;
+}
+
+@media(max-width:700px) {
+    .aboutus1 {
+        position: absolute;
+        top: 20px;
+        left: 30px;
+    }
+}
+
+.itis1 {
+    position: absolute;
+    font-size: 15px;
+    top: 120px;
+    left: 300px;
+}
+
+@media(max-width:700px) {
+    .itis1 {
+        border: 1px solid none;
+        height: 100px;
+        font-size: 16px;
+        width: 320px;
+        visibility: visible;
+        position: absolute;
+        top: 65px;
+        left: 30px;
+
+    }
+}
+
+.grid {
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5%;
+    left: 18%;
+    top: 250px;
+}
+
+@media(max-width:700px) {
+    .grid {
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+
+.hdng3_1 {
+    margin-top: 13px;
+    margin-bottom: 13px;
+    font-size: 23px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.part5 {
+    border: 1px solid none;
+    width: 250px;
+    height: 150px;
+}
+
+.grid1_01 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+}
+
+.grid1_2 {
+    margin-left: 70px;
+}
+
+.hdng3_2 {
+    margin-top: 13px;
+    margin-bottom: 13px;
+    font-size: 23px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.part5_1 {
+    border: 1px solid none;
+    width: 250px;
+    height: 150px;
+}
+
+.grid1_02 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+}
+
+.grid1_3 {
+    margin-left: 70px;
+}
+
+.hdng3_3 {
+    margin-top: 13px;
+    margin-bottom: 13px;
+    font-size: 23px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.part5_2 {
+    border: 1px solid none;
+    width: 250px;
+    height: 150px;
+}
+
+.grid1_03 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+}
+
+.hdng3_4 {
+    margin-top: 13px;
+    margin-bottom: 13px;
+    font-size: 23px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.part5_3 {
+    border: 1px solid none;
+    width: 250px;
+    height: 150px;
+}
+
+.grid1_5 {
+    margin-left: 70px;
+}
+
+.grid1_04 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+}
+
+.hdng3_5 {
+    margin-top: 13px;
+    margin-bottom: 13px;
+    font-size: 23px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.part5_4 {
+    border: 1px solid none;
+    width: 250px;
+    height: 150px;
+}
+
+.grid1_05 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+}
+
+.part5_5 {
+    border: 1px solid none;
+    width: 250px;
+    height: 150px;
+}
+
+.grid1_06 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+}
+
+.hdng3_6 {
+    margin-top: 13px;
+    margin-bottom: 13px;
+    font-size: 23px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.grid1_6 {
+    margin-left: 70px;
+}
+
+@media(max-width:700px) {
+
+    .grid1_1,
+    .grid1_2,
+    .grid1_3,
+    .grid1_4,
+    .grid1_5,
+    .grid1_6 {
+
+        margin-left: -80px;
+    }
+
+}
+
+.box8 {
+    border: 1px solid transparent;
+    height: 500px;
+    max-width: 100%;
+    margin-top: 710px;
+    position: relative;
+    margin-left: -200px;
+}
+
+@media(max-width:700px) {
+
+    .box8 {
+
+        position: absolute;
+        top: 2750px;
+        left: -350px;
+    }
+
+
+}
+
+.image2 {
+    position: absolute;
+    left: 400px;
+    top: 100px;
+    height: 350px;
+    width: 550px;
+}
+
+.box9 {
+    border: 1px solid transparent;
+    height: 400px;
+    max-width: 100%;
+    position: absolute;
+    left: 1000px;
+    top: 120px;
+}
+ 
+@media(max-width:700px) {
+    .box9 {
+        position: absolute;
+        top: 500px;
+        left: 400px;
+    }
+
+    .image2 {
+        width: 400px;
+        height: 300px;
+        margin-left: 300px;
+    }
+
+    .box9 .button3 {
+        position: absolute;
+        left: 210px;
+        width: 150px;
+    }
+
+    .box9 h1 {
+        border: 1px solid transparent;
+        width: 500px;
+        height: 100px;
+        position: absolute;
+        top: -80px;
+        left: 200px;
+    }
+
+    .therearemany{
+        border: 1px solid transparent;
+        width: 400px;
+        height: 200px;
+        position: absolute;
+      bottom: 50px;
+      left: 200px;
+    }
+   
+}
+
+.therearemany {
+    position: absolute;
+    top: 100px;
+}
+
+.button3 {
+    position: absolute;
+    top: 250px;
+    right: 50px;
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 100px;
+}
+.button3:hover{
+    background-color: white;
+    color: black;
+}
+
+.box10 {
+    border: 1px solid transparent;
+    max-width: 100%;
+    height: 700px;
+    margin-left: -50px;
+
+    position: relative;
+}
+
+#notice{
+    position:relative ;
+    width:100%;
+    left: 60px;
+    top: 50px;
+}
+.notice1{
+    position: absolute;
+    left: -100px;
+}
+
+
+.followour{
+    position: absolute;
+    margin-left:5px;
+    z-index: 1;
+}
+@media(max-width:700px) 
+{
+    
+    .box10 {
+        visibility: hidden;
+        top: 3100px;
+    }
+#notice{
+    width: 700px;
+    margin-left: 50px;
+    margin-top: 85px;
+}
+    .box10 .followour {
+        visibility: visible;
+        position: absolute;
+        left: 50px;
+        font-size: 25px;
+        text-align: center;
+
+    }
+
+    .box10 .span {
+        visibility:visible ;
+     
+      
+    }
+
+    .box10 .spa {
+        visibility: visible;
+        position: absolute;
+        left: 150px;
+    }
+
+    .box10 .span1 {
+       
+        position: absolute;
+        left: 0px;
+    }
+
+    .span1 {
+        visibility: visible;
+        margin-left: 20px;
+        margin-top: -100px;
+    }
+
+    .box10 .span2 {
+        position: absolute;
+        visibility: visible;
+        left: 320px;
+        top: 250px;
+        height: -80px;
+
+    }
+
+    .box10 .button4 {
+        position: absolute;
+        left: 300px;
+        width: 180px;
+        visibility: visible;
+        top: 400px;
+
+
+    }
+}
+
+
+
+
+
+.box10 h1 {
+    position: absolute;
+    left: 500px;
+}
+
+.box10 span {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    height: 300px;
+
+}
+
+.box10 .span1 {
+    position: absolute;
+    top: 280px;
+    left: 350px;
+}
+
+.button4 {
+    position: absolute;
+    top: 650px;
+    right: 650px;
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 130px;
+}
+
+.box11 {
+    position: relative;
+    border: 1px solid transparent;
+    max-width: 100%;
+    height: 700px;
+}
+@media(max-width:700px){
+    .box11{
+        margin-top: 3050px;
+    }
+    .box11 .image3{
+        height: 1000px;
+        width: 100%;
+    }
+    .box11 p{
+        margin-left: -300px;
+    }
+
+    .box11 .line4{
+        margin-left: -300px;
+    }
+    .button5{
+        margin-top: -10px;
+        margin-left: -300px;
+    }
+    
+    }
+
+.image3 {
+    max-width: 100%;
+}
+
+.easi {
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    color: white;
+    font-size: 40px;
+    left: 400px;
+}
+
+
+.line4 {
+    position: absolute;
+    border: 0.5px solid white;
+    width: 200px;
+    top: 125px;
+    left: 620px;
+}
+
+.major {
+    position: absolute;
+    z-index: 1;
+    top: 150px;
+    color: white;
+    font-size: 18px;
+    left: 400px;
+}
+
+.name {
+    position: absolute;
+    border: 0.5px solid transparent;
+    background-color: white;
+    width: 500px;
+    height: 35px;
+    top: 225px;
+    left: 400px;
+}
+
+.phone {
+    position: absolute;
+    border: 0.5px solid transparent;
+    background-color: white;
+    width: 500px;
+    height: 35px;
+    top: 280px;
+    left: 400px;
+}
+
+
+.email {
+    position: absolute;
+    border: 0.5px solid transparent;
+    background-color: white;
+    width: 500px;
+    height: 35px;
+    top: 335px;
+    left: 400px;
+}
+
+.message {
+    position: absolute;
+    border: 0.5px solid transparent;
+    background-color: white;
+    width: 500px;
+    height: 120px;
+    top: 405px;
+    left: 400px;
+}
+
+
+input {
+    position: absolute;
+    width: 99.9%;
+    height: 99.9%;
+
+    text-align: left;
+}
+
+.button5 {
+    position: absolute;
+    border: 0.5px solid transparent;
+    background-color: green;
+    width: 100px;
+    height: 40px;
+    top: 560px;
+    left: 400px;
+}
+
+.map {
+    position: absolute;
+    top: 250px;
+    height: 350px;
+    width: 350px;
+    left: 1000px;
+}
+
+@media(max-width:700px)
+{
+    .map{
+        position: absolute;
+        top: 600px;
+      left: 100px;
+      width: 500px;
+    }
+}
+.box12 {
+    position: relative;
+    border: 1px solid transparent;
+    width: 1530px;
+    height: 500px;
+}
+
+@media(max-width:700px){
+    .box12{
+        margin-top: 300px;
+       margin-left: 0px;
+    width: 700px;
+}
+}
+
+.have{
+    margin-left:-120px ;
+}
+
+.test {
+    position: absolute;
+    font-size: 30px;
+    left: 290px;
+    top: 60px;
+}
+
+.have {
+    position: absolute;
+    left: 42%;
+    top: 115px;
+}
+
+.box13 {
+    border: solid transparent 1px;
+    width: 420px;
+    height: 200px;
+    position: relative;
+    margin-top: 180px;
+    margin-left: -500px;
+    box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, 0.521);
+}
+
+@media(max-width:700px){
+    .box13{
+        margin-left: 60px;
+        width:100%px;
+    }
+    .box13 .line5{
+        position: absolute;
+        width: 250px;
+    }
+   
+}
+
+.jo {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    color: rgb(61, 155, 61);
+}
+
+.line5 {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    width: 380px;
+    height: 2px;
+    z-index: 1;
+    background: #000;
+}
+
+.quick {
+    position: absolute;
+    top: 25px;
+    left: 90%;
+}
+
+.pro {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    text-align: left;
+}
+
+.box14 {
+    border: solid transparent 1px;
+    width: 420px;
+    height: 200px;
+    position: relative;
+    margin-top: -203px;
+    margin-left: 500px;
+    box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, 0.521);
+}
+
+@media(max-width:700px){
+    .box14{
+        margin-left:50px;
+        width: 420px;
+        margin-top: 50px;
+    }
+    .box14 div{
+        width: 250px;
+    }
+}
+#box15{ 
+    position: relative;
+    border: 1px solid black;
+    width: 100%;
+    height: 400px;
+    background-color: #4b4a4a;
+}
+
+#box16{ 
+    position: absolute;
+    border: 1px solid transparent;
+    width: 400px;
+    height: 300px;
+    top: 30px;
+    left: 100px;
+   
+}
+
+.loc{
+    
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+.ut{
+    position: absolute;
+    left: 30px;
+    top: 5px;
+
+}
+.boi{
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    font-size: 20px;
+    color: white;
+}
+.Lorem{
+    position: absolute;
+    top: 140px;
+    left: 10px;
+}
+
+
+
+#box17{ 
+    position: absolute;
+    border: 1px solid transparent;
+    width: 400px;
+    height:  300px;
+    left: 600px;
+    top: 30px;
+   
+}
+
+
+
+#box18{ 
+    position: absolute;
+    border: 1px solid transparent;
+    width: 400px;
+    height:  300px;
+    left: 1100px;
+    top: 30px;
+}
+.lin6{
+    border: 1px solid rgb(255, 255, 255);
+    position: absolute;
+    width: 200px;
+    top: 180px;
+    left: 10px;
+}
+
+.cribe{
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    color: aqua;
+}
+.last{
+    position: absolute;
+    top: 230px;
+    left: 10px;
+    font-size: 35px;
+}
+.rese{
+  margin-top: 380px;
+  margin-left: 650px;
+}
+
+@media(max-width:700px){
+#box15{
+    width: 100%;
+    margin-top: 150px;
+    height: 950px;
+  }
+#box16{
+        position: absolute;
+        left: 0px;
+        top: 10px;
+    }
+    #box17{
+        position: absolute;
+        top: 250px;
+        left: 0px;
+    }
+    #box18{
+        position: absolute;
+        top: 500px;
+        left: 0px;
+    }
+    .rese{
+        border: 1px solid transparent;
+        position: absolute;
+        top: 450px;
+        right: 100px;
+        width: 300px;
+    }
+    .last{
+        position: absolute;
+        top: 250px;
+    }
+  
+}
